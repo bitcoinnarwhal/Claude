@@ -8,7 +8,10 @@ its visualization; edit them here or there, but sync manually — there is no
 automatic link between this repo and the Base44 git remote.
 
 Mirrored at Base44 checkpoint `b93c433` ("Real hedge math wired in: payout
-curve, collateral floor, realized breach losses", 2026-08-11).
+curve, collateral floor, realized breach losses", 2026-08-11). The mirror is
+byte-exact (Base44 stores files without trailing newlines; so does this
+directory), so a sync check is a plain `sha256sum` comparison of these files
+against the app sandbox.
 
 ## What it is
 
